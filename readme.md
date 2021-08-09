@@ -10,12 +10,16 @@ Navigate to the project directory and install the dependencies.
 
 ```
 $ npm install
+// or
+$ yarn
 ```
 
 To build the extension, and rebuild it when the files are changed, run
 
 ```
 $ npm start
+// or
+$ yarn build
 ```
 
 After the project has been built, a directory named `dist` has been created. You have to add this directory to your Chrome browser:
